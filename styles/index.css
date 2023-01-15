@@ -1,0 +1,115 @@
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: hsl(30, 38%, 92%);;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: Fraunces;
+  src: url(../fonts/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+}
+
+.card{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 550px;
+  margin: 1rem auto;
+  background-color: white;
+  border-radius: 0.75rem;
+  overflow: hidden;
+}
+
+.card img{
+  width: 100%;
+  height: 100%;
+}
+
+.card h1{
+  font-size: 2rem;
+  font-family: Fraunces;
+  font-weight: 700;
+  color: hsl(212, 21%, 14%);
+}
+
+.card h2{
+  font-size: 0.8rem;
+  font-family: Montserrat;
+  font-weight: 500;
+  color: hsl(228, 12%, 48%);
+}
+
+.card h3{
+  font-size: 0.75rem;
+  font-family: Montserrat;
+  font-weight: 500;
+  color: hsl(228, 12%, 48%);
+}
+
+.card p{
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+  color: hsl(228, 12%, 48%);
+}
+
+.card .price{
+  display: flex;
+  align-items: center;
+}
+
+.card .current-price{
+  color: hsl(158, 36%, 37%);
+}
+
+.card .past-price{
+  text-decoration: line-through;
+}
+
+.card .info{
+  display: grid;
+  padding: 1.5rem;
+}
+
+.card .icon{
+  width: 1.25rem;
+  height: auto;
+}
+
+.card .btn{
+  display: flex;
+  background-color: hsl(158, 36%, 37%);
+  border: none;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 0.8rem;
+  padding: 0.6em;
+}
+
+.card .btn:hover{
+  background-color: hsl(158, 36%, 20%);
+}
+
+@media (max-width: 376px){
+  .card{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .card img{
+    width: 100%;
+  }
+}
