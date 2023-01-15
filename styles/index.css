@@ -6,7 +6,6 @@
 
 body{
   background-color: hsl(30, 38%, 92%);
-  min-width: 100vh;
   display: grid;
   place-content: center;
 }
