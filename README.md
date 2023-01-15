@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/manuvh152/QR-Code-Component)
-- Live Site URL: [GitHub Pages](https://manuvh152.github.io/QR-Code-Component/)
+- Solution URL: [GitHub](https://github.com/manuvh152/Product-Preview-Card)
+- Live Site URL: [GitHub Pages](https://manuvh152.github.io/Product-Preview-Card/)
 
 ## My process
 
